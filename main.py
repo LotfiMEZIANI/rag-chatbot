@@ -13,8 +13,9 @@ ASSISTANT_AVATAR = "🤖"
 
 
 def main():
-    st.set_page_config(page_title="Chatbot", page_icon="🤖")
-    st.title("Chatbot")
+    st.set_page_config(page_title="NextJs Assistant", page_icon="🤖")
+
+    st.title("NextJs Documentation Assistant")
 
     display_sidebar()
 
